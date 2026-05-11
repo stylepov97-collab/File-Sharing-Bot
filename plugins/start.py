@@ -13,14 +13,14 @@ async def not_joined(client: Client, message: Message):
     if not await subscribed(client, message):
         buttons = [
             [
-                InlineKeyboardButton("Join Channel 1 ✅", url="-1003989929521")
+                InlineKeyboardButton("Join Channel 1 ✅", url="https://t.me/+QoKuBOJd_CZmMjU1")
             ],
             [
                 # මෙය බොට් චෙක් නොකරන, වෙනත් අයෙකුගේ චැනල් එකයි
                 InlineKeyboardButton("Join Channel 2 (Main) 🚀", url="https://t.me/+bGRwATxBAHEzOTI9")
             ],
             [
-                InlineKeyboardButton("Join Channel 3 ✅", url="-1003959092654")
+                InlineKeyboardButton("Join Channel 3 ✅", url="https://t.me/+z3y1IwnZYJhjYWU1")
             ]
         ]
 
